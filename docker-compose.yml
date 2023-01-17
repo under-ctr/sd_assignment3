@@ -1,0 +1,8 @@
+version: '3'
+services:
+  sd-backend-good:
+    build: .
+    ports:
+      - "8080:8080"
+
+
